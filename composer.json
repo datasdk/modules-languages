@@ -1,0 +1,33 @@
+{
+    "name": "nwidart/languages",
+    "description": "Languages module",
+    "type": "library",
+    "require": {
+   
+    },
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Languages\\": "",
+            "Modules\\Languages\\Database\\Factories\\": "database/factories/",
+            "Modules\\Languages\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Languages\\Tests\\": "tests/"
+        }
+    }
+}
